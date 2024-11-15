@@ -1,0 +1,9 @@
+Bundle-Name: registration-rest
+Bundle-SymbolicName: com.hredwan.registration.rest
+Bundle-Version: 1.0.0
+Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+Import-Package: \
+    com.hredwan.registration.service, \
+    com.liferay.portal.kernel.service, \
+    javax.ws.rs, \
+    *

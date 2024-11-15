@@ -1,0 +1,15 @@
+assemble:
+    - from: build/static
+      into: static
+liferay-registration:
+    cssURLs:
+        - css/main.*.css
+    friendlyURLMapping: liferay-registration
+    htmlElementName: liferay-registration
+    instanceable: false
+    name: Liferay Registration
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - js/main.*.js
+    useESM: true

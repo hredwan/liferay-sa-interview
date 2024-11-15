@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.hredwan.registration.model.Registration">
+		<field name="registrationId" type="long" />
+		<field name="name" type="String" />
+		<field name="surname" type="String" />
+		<field name="dateOfBirth" type="Date" />
+		<field name="email" type="String" />
+		<field name="registrationDate" type="Date" />
+	</model>
+</model-hints>

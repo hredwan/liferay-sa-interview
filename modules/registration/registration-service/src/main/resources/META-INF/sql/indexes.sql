@@ -1,0 +1,1 @@
+create index IX_AE154927 on Registration_Registration (email[$COLUMN_LENGTH:75$]);

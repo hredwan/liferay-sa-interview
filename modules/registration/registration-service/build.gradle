@@ -1,0 +1,15 @@
+dependencies {
+	api project(":modules:registration:registration-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../registration-api/src/main/java"
+	testDir = "../registration-test/src/testIntegration/java"
+}
+java {
+	sourceCompatibility = JavaVersion.VERSION_11
+	targetCompatibility = JavaVersion.VERSION_11
+}
+group = "com.hredwan.registration"

@@ -1,0 +1,8 @@
+Bundle-Name: registration-service
+Bundle-SymbolicName: com.hredwan.registration.service
+Bundle-Version: 1.0.0
+Export-Package: com.hredwan.registration.service.impl
+Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true
+-dsannotations-options: inherit

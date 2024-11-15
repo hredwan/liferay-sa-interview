@@ -1,0 +1,11 @@
+Bundle-Name: registration-api
+Bundle-SymbolicName: com.hredwan.registration.api
+Bundle-Version: 1.0.0
+Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+Export-Package:\
+	com.hredwan.registration.exception,\
+	com.hredwan.registration.model,\
+	com.hredwan.registration.service,\
+	com.hredwan.registration.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../registration-service/service.xml

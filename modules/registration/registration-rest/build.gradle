@@ -1,0 +1,7 @@
+dependencies {
+	compileOnly project(":modules:registration:registration-api")
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+	compileOnly group: "javax.ws.rs", name: "javax.ws.rs-api"
+	implementation 'org.json:json:20210307'
+
+}

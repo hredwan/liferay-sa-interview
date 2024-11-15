@@ -1,0 +1,8 @@
+Bundle-Name: registration-admin
+Bundle-SymbolicName: com.hredwan.registration.admin
+Bundle-Version: 1.0.0
+Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=11))"
+Export-Package: com.hredwan.registration.admin.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
